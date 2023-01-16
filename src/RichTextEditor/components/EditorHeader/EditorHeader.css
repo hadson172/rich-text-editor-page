@@ -1,0 +1,6 @@
+.editor__header {
+   background-color: gray; 
+   padding: 0.2em;
+   display: flex;
+   gap: 0.3em;
+}
