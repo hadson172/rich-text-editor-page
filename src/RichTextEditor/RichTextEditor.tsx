@@ -6,9 +6,7 @@ import "./RichTextEditor.css";
 
 type Props = {};
 
-const RichTextEditor = (props: Props) => {
-  const [richText, setRichText] = useState()
- 
+const RichTextEditor = (props: Props) => { 
   return (
     <div className="editor">
       <RichTextEditorHeader />
