@@ -4,9 +4,7 @@ import { FaBold } from "react-icons/fa";
 import { FaItalic } from "react-icons/fa";
 import { FaUnderline } from "react-icons/fa";
 
-type Props = {};
-
-const RichTextEditorHeader = (props: Props) => {
+const RichTextEditorHeader = () => {
   return (
     <div className="editor__header">
       <ActionButton
@@ -39,8 +37,6 @@ function surroundSelection(element: HTMLElement) {
     var sel = window.getSelection();
     if (sel && sel.rangeCount) {
       var range = sel.getRangeAt(0).cloneRange();
-
-      console.log(range);
       range.surroundContents(element);
       sel.removeAllRanges();
       sel.addRange(range);
