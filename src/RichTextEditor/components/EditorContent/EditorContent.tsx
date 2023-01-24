@@ -11,7 +11,6 @@ const RichTextEditorContent = forwardRef<HTMLDivElement, Props>(
         suppressContentEditableWarning={true}
         contentEditable
         className="editor__content"
-        onChange={(value) => console.log({ value })}
       ></div>
     );
   }
