@@ -1,2 +1,0 @@
-.app{display:grid;height:100vh;place-items:center}.editor__content{overflow-y:scroll;padding:.2em}.editor__header{background-color:gray;display:flex;gap:.3em;padding:.2em}.editor{border:1px solid gray;display:grid;grid-template-rows:-webkit-min-content 1fr;grid-template-rows:min-content 1fr;height:clamp(20ch,20vh,80ch);overflow:hidden;width:clamp(30ch,30vw,100ch)}
-/*# sourceMappingURL=main.cd74ce71.css.map*/
