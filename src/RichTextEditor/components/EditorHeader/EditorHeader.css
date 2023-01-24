@@ -1,6 +1,12 @@
 .editor__header {
    background-color: gray; 
-   padding: 0.2em;
+   padding: 0.5em;
    display: flex;
    gap: 0.3em;
+}
+
+.editor__header > button {
+   padding: 0.3em;
+   display: flex;
+   align-items: center;
 }

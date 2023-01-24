@@ -1,8 +1,42 @@
 .editor {
     width: clamp(30ch, 30vw, 100ch);
-    height: clamp(20ch, 20vh, 80ch);
+    height: clamp(10em, 35vh, 30em);
     border: 1px solid gray;
     display: grid;
     grid-template-rows: min-content 1fr;
     overflow: hidden;
+    border-radius: 0.5em;
+    box-shadow: 0px 10px 80px 0px rgba(66, 68, 90, 1);
+}
+
+.editor > button {
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.editor__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.editor__wrapper > button {
+    padding: 1em 2em;
+    margin-left: auto;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+.editor__wrapper > button:hover {
+    background-color: #0ba10b;
+    cursor: pointer;
+}
+
+.debugger__content {
+    background-color: white;
+    height: 10em;
+    
 }
